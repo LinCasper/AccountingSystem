@@ -11,7 +11,8 @@
 4.查看報表
 ### 如何安裝執行  
 下載完成後，可以使用 Visual Studio 開啟。    
-## UML  <img width="1098" height="425" alt="image" src="https://github.com/user-attachments/assets/4380dc3a-d322-4040-8c21-645d8f3ef99b" />  
+## UML  <img width="694" height="370" alt="image" src="https://github.com/user-attachments/assets/ea2e744b-806a-4f0e-b07c-c1e137625e4b" />
+
   
 ## 實際畫面  <img width="273" height="395" alt="image" src="https://github.com/user-attachments/assets/a5446900-c65b-4a47-87c9-4fdaf954a971" />  
 ### 分工資訊  
