@@ -11,23 +11,26 @@ void Account::addRecord()
 {
     int choice;
 
-    cout << "1.¦¬¤J 2.¤ä¥X: ";
+    cout << "1.æ”¶å…¥ 2.æ”¯å‡º: ";
     cin >> choice;
 
     if (choice == 1)
-        type[count] = "¦¬¤J";
-    else
-        type[count] = "¤ä¥X";
-
-    cout << "ºØÃþ: ";
+        type[count] = "æ”¶å…¥";
+    else if (choice == 2)
+    type[count] = "æ”¯å‡º";
+else {
+    cout << "è¼¸å…¥éŒ¯èª¤!!!!!";
+    return;
+}
+    cout << "ç¨®é¡ž: ";
     cin >> category[count];
 
-    cout << "ª÷ÃB: ";
+    cout << "é‡‘é¡: ";
     cin >> amount[count];
 
     count++;
 
-    cout << "·s¼W¦¨¥\¡I" << endl;
+    cout << "æ–°å¢žæˆåŠŸï¼" << endl;
 }
 
 void Account::showRecords()
@@ -46,7 +49,7 @@ void Account::deleteRecord()
     int num;
     showRecords();
 
-    cout << "§R°£½s¸¹: ";
+    cout << "åˆªé™¤ç·¨è™Ÿ: ";
     cin >> num;
 
     for (int i = num - 1;i < count - 1;i++)
