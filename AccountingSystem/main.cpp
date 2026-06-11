@@ -13,11 +13,11 @@ int main()
     do
     {
         cout << endl;
-        cout << "1.·s¼W°O±b" << endl;
-        cout << "2.Åã¥Ü¬ö¿ý" << endl;
-        cout << "3.§R°£¬ö¿ý" << endl;
-        cout << "4.²Î­p³øªí" << endl;
-        cout << "0.Â÷¶}" << endl;
+        cout << "1.æ–°å¢žè¨˜å¸³ç´€éŒ„" << endl;
+        cout << "2.é¡¯ç¤ºç´€éŒ„" << endl;
+        cout << "3.åˆªé™¤ç´€éŒ„" << endl;
+        cout << "4.çµ±è¨ˆå ±è¡¨" << endl;
+        cout << "0.é›¢é–‹" << endl;
         cin >> choice;
 
         switch (choice)
